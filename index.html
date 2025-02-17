@@ -1,23 +1,23 @@
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Привет, мир!</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <title>Карточка товара</title>
+    <link rel="stylesheet" href="styles/output.css"> <!-- Подключаем скомпилированный CSS -->
 </head>
 <body>
-    <div class="container text-center mt-5">
-        <h1>Привет, мир!</h1>
-        <div class="row mt-4">
-            <div class="col-md-6 col-12">
-                <p>Это первый текстовый блок.</p>
-            </div>
-            <div class="col-md-6 col-12">
-                <p>Это второй текстовый блок.</p>
+    <div class="container">
+        <div class="card">
+            <h2 class="card-title">Название товара</h2>
+            <p class="card-description">
+                Это краткое описание товара. Здесь можно указать его основные характеристики и преимущества.
+            </p>
+            <div class="card-footer">
+                <span class="price">₽999</span>
+                <button class="buy-button">Купить</button>
             </div>
         </div>
-        <button class="btn btn-custom mt-3">Нажать</button>
     </div>
 </body>
 </html>
